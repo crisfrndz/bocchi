@@ -1,0 +1,157 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fdeff4;
+  padding: 1rem;
+}
+.top {
+  /* outline: auto; */
+  width: 90vw;
+  height: 40vh;
+  margin: auto;
+  display: flex;
+  background-color: #ffc0d3;
+  border-radius: 1rem;
+}
+.top-left {
+  width: 25%;
+  /* outline: auto; */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 80%;
+  height: 90%;
+  border-radius: 1rem;
+  animation: 0.9s ease-in-out;
+}
+.top-mid {
+  display: flex;
+  flex-direction: column;
+  color: #524a4e;
+  justify-content: center;
+  padding: 1rem;
+  width: 55%;
+  /* outline: auto; */
+}
+h1 {
+  font-size: 5vw;
+  font-family: "Rubik";
+}
+.bot {
+  width: 90vw;
+  margin: auto;
+}
+.bot-left {
+  /* outline: auto; */
+  width: 30%;
+  height: 50vh;
+  padding: 1rem;
+}
+.anime {
+  background-color: #ff5c8d;
+  width: 4vw;
+  color: #fdeff4;
+  font-family: "Rubik";
+  font-size: 1vw;
+  margin: 2px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.title {
+  font-size: 2vw;
+  color: #524a4e;
+  font-family: "Rubik";
+}
+.position {
+  font-family: "Inter";
+  font-size: 1vw;
+}
+.top-r {
+  /* outline: auto; */
+  width: 20%;
+  background-color: #524a4e;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.icon {
+  color: #fdeff4;
+  font-size: 10vw;
+}
+.icon-text {
+  color: #fdeff4;
+  font-family: "Rubik";
+}
+.button-change {
+  background-color: transparent;
+  border: none;
+  /* outline: auto; */
+  width: 100%;
+  height: 100%;
+}
+.bot-right {
+  /* outline: auto; */
+  width: 70%;
+  padding: 1rem;
+}
+.bot {
+  display: flex;
+}
+.des {
+  color: #524a4e;
+  font-family: "Inter";
+  font-size: 1vw;
+}
+.about {
+  font-size: 3vw;
+  font-family: "Rubik";
+  font-weight: bold;
+  color: #524a4e;
+}
+#pop-up {
+  width: 20vw;
+  height: 5vh;
+  /* outline: auto; */
+  /* margin: auto; */
+  background-color: #a2ff86;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  left: 40%;
+  border-radius: 1rem;
+  font-size: 1rem;
+  font-family: "Rubik";
+  font-weight: bold;
+  color: #524a4e;
+  transition: 0.5s ease-in-out;
+
+  visibility: hidden;
+}
+
+.bot-foot {
+  display: flex;
+  justify-content: center;
+  background-color: #524a4e;
+  height: 5vh;
+  align-items: center;
+}
+.footer {
+  font-size: 1vw;
+  color: #fdeff4;
+  font-family: "Inter";
+}
